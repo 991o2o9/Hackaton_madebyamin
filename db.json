@@ -1,0 +1,22 @@
+{
+  "info": [
+    {
+      "name": "Man",
+      "description": "Ref",
+      "image": "https://www.man.eu/ntg_media/media/content_medien/img/man_unternehmenswebsite/stories/2023_16/etruck_start_of_sales/man_stories_start_of_sales_header/Teaser_2_-_1536_x_1536px-man-stories-start-of-sales-header.jpg",
+      "id": 2
+    },
+    {
+      "name": "Volvo",
+      "description": "Max",
+      "image": "https://exportandfreight.com/wp-content/uploads/2020/07/Volvo-Trucks-Launches-FH-Unlimited-Edition-Copy-1.jpg",
+      "id": 3
+    },
+    {
+      "name": "Mirdin''s flippidipdupidu",
+      "description": "alright dude what the flip",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e0767ebb-0965-4ba2-96df-0618827bfa62/dg6rrxs-7f001b9c-5ce3-4a21-904a-00b231c36682.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2UwNzY3ZWJiLTA5NjUtNGJhMi05NmRmLTA2MTg4MjdiZmE2MlwvZGc2cnJ4cy03ZjAwMWI5Yy01Y2UzLTRhMjEtOTA0YS0wMGIyMzFjMzY2ODIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Xq27S6wGRypZP_wKaM2k6ev3GpnCqnTilPF6ZE5Gw3U",
+      "id": 4
+    }
+  ]
+}

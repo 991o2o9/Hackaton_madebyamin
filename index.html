@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="navbar">
+				<img src="./src/img/main_logo.svg" alt="" class="navbar-logo" />
+				<div class="info-span">
+					<a href="" class="href-span"><span class="info-nav">Услуги</span></a>
+					<a href="" class="href-span"
+						><span class="info-nav">О компании</span></a
+					>
+					<a href="" class="href-span"
+						><span class="info-nav">Контакты</span></a
+					>
+				</div>
+				<!--  -->
+				<div class="shit">
+					<input
+						class="inpSearch"
+						type="text"
+						name=""
+						id=""
+						placeholder="Поиск"
+					/>
+					<button class="createItem">Создать/добавить товар</button>
+					<button class="btnsignIn">Войти</button>
+					<button class="btnsignup">Зарегистрироваться</button>
+				</div>
+				<!--  -->
+			</div>
+			<div class="section-1">
+				<div class="section-1-text">
+					<h1>Грузовые перевозки</h1>
+					<span
+						>Перевозка крупногабаритных грузов по России и Европе. Полное
+						экспедирование,<br />
+						страхование, упаковка и хранение грузов</span
+					>
+				</div>
+			</div>
+			<!--!  -->
+			<!--!  -->
+			<!--  -->
+			<div class="createModal">
+				<input
+					type="text"
+					name=""
+					class="inpCreate-1"
+					placeholder="Введите название товара"
+				/>
+				<input
+					type="text"
+					name=""
+					class="inpCreate-2"
+					placeholder="Введите описание товара"
+				/>
+				<input
+					type="text"
+					name=""
+					class="inpCreate-3"
+					placeholder="Вставьте фотокарточку вашего товара"
+				/>
+				<button class="btnCreate">Создать</button>
+			</div>
+			<!--  -->
+			<div class="section-2"></div>
+			<div class="editModal">
+				<input type="text" name="" class="inpEdit-1" />
+				<input type="text" name="" class="inpEdit-2" />
+				<input type="text" name="" class="inpEdit-3" />
+				<button class="saveEdit">Save</button>
+			</div>
+
+			<div id="myModal" class="modal">
+				<!-- Контент модального окна -->
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<!-- Заголовок и дополнительная информация -->
+					<h2>Дополнительная информация</h2>
+					<span class="placeForInfo"></span>
+					<button class="editInfoBtn">Изменить</button>
+					<button id="addInfoBtn">Добавить</button>
+				</div>
+			</div>
+			<!-- !add -->
+			<div id="addModal" class="modal">
+				<div class="modal-content">
+					<span class="closeAddWindow">&times;</span>
+					<h2>Добавить информацию</h2>
+
+					<label for="addInfo">Новая информация:</label><br />
+					<input type="text" id="addInfo" name="addInfo" /><br /><br />
+					<input type="submit" value="Добавить" class="btnSaveMoreInfo" />
+				</div>
+			</div>
+			<!-- !add -->
+
+			<!-- !changeInfo -->
+			<div id="modifyModal" class="modal">
+				<div class="modal-content">
+					<span class="closeModifyWindow">&times;</span>
+					<h2>Изменить информацию</h2>
+
+					<label for="modifyInfo">Измененная информация:</label><br />
+					<input type="text" id="modifyInfo" name="modifyInfo" /><br /><br />
+					<input type="submit" value="Изменить" class="btnSaveModifiedInfo" />
+				</div>
+			</div>
+
+			<!-- !changeInfo -->
+		</div>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
